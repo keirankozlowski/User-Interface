@@ -78,22 +78,41 @@ h1, h2, h3, h4, h5 {
 
 .header-section {
 	display: inline-block;
+	font-size: 40px;
 	width: 100px;
-	height: 500px;
+	height: 100px;
 	margin: 20px;
 }
 
 .get-started-button {
 	border: 1px solid black;
+	font-size: 15px;
+	width: 100px;
 	padding: 10px;
 }
 
 .topics-section {
 	border-top: 1px solid black;
 	margin: 20px;
-	display: inline-block;
+	border: 1px solid black;
 }
+
+.topics-section-piece-1 {
+	border: 1px solid black;
+	width: 50px;
+	height: 100x;
+	display: inline;
+}
+
+.topics-section-piece-2 {
+	border: 1px solid black;
+	width: 25px;
+	height: 100x;
+	display: inline;
+}
+
 .contact-section {
+	display: inline-block;
 	border-top: 1px solid black;
 	margin: 20px;
 	line-height: 20px;
