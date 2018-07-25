@@ -79,9 +79,24 @@ h1, h2, h3, h4, h5 {
 .header-section {
 	display: inline-block;
 	font-size: 40px;
-	width: 100px;
+	width: 1000px;
 	height: 100px;
 	margin: 20px;
+	padding: 20px;
+}
+
+.cta-left-side {
+	display: inline-block;
+	width: 250px; 
+	padding: 20px;
+	padding-bottom: 250px;
+	text-align: center;
+}
+
+.cta-right-side {
+	display: inline-block;
+	width: 250px;
+	padding: 20px;
 }
 
 .get-started-button {
@@ -94,30 +109,38 @@ h1, h2, h3, h4, h5 {
 .topics-section {
 	border-top: 1px solid black;
 	margin: 20px;
-	border: 1px solid black;
+	padding: 20px;
+	width: 1000px;
 }
 
 .topics-section-piece-1 {
-	border: 1px solid black;
-	width: 50px;
-	height: 100x;
-	display: inline;
+	padding: 20px;
+	width: 436px;
+	height: 50x;
+	display: inline-block;
+}
+
+.middle-img {
+	display: block;
 }
 
 .topics-section-piece-2 {
-	border: 1px solid black;
-	width: 25px;
-	height: 100x;
-	display: inline;
+	padding: 20px;
+	width: 289px;
+	height: 50x;
+	display: inline-block;
 }
 
 .contact-section {
 	display: inline-block;
 	border-top: 1px solid black;
+	width: 1000px;
+	padding: 20px;
 	margin: 20px;
 	line-height: 20px;
 }
 
 .copyright-section {
+	padding-right: 700px;
 	text-align: center;
 }
